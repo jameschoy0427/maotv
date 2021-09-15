@@ -1,0 +1,13 @@
+{
+    "sites": [
+        {
+            "key": "神马影院",
+            "name": "神马影院",
+            "type": 0,
+            "api": "http://www.zitv.cc/api.php/provide/vod/at/xml/",
+            "playUrl": "",
+            "categories": [
+                
+            ]
+        }
+}
