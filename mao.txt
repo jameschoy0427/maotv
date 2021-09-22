@@ -1,12 +1,439 @@
-{
-    "sites": [
-        {
-            "key": "神马影院",
-            "name": "神马影院",
-            "type": 0,
-            "api": "http://www.zitv.cc/api.php/provide/vod/at/xml/",
-            "playUrl": "",
-            "categories": [
-                
-            ]
+[
+  {
+    "id": 1,
+    "key": "mahuazy",
+    "name": "éº»èŠ±èµ„æº",
+    "api": "http://www.mhapi123.com/inc/ldg_api.php",
+    "download": "",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "apibdzy",
+    "id": 2,
+    "name": "ç™¾åº¦äº‘èµ„æº",
+    "api": "https://m3u8.apibdzy.com/api.php/provide/vod/at/xml/",
+    "download": "",
+    "jiexiUrl": "https://jx.444662.cn/m3u8/?url=",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "å¿«æ’­äº‘",
+    "id": 3,
+    "name": "å¿«æ’­äº‘",
+    "api": "http://www.kuaibozy.com/api.php/provide/vod/from/kbm3u8/at/xml/",
+    "download": "",
+    "jiexiUrl": "https://jx.7kjx.com/?url=",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "å®…çœ‹(è“å…‰é«˜æ¸…)",
+    "id": 4,
+    "name": "å®…çœ‹(è“å…‰é«˜æ¸…)",
+    "api": "https://www.zhaikanys.com/api.php/provide/vod/at/xml/",
+    "download": "",
+    "jiexiUrl": "https://jx.7kjx.com/?url=",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "1886zy",
+    "id": 5,
+    "name": "1886 èµ„æº",
+    "api": "http://cj.1886zy.co/inc/api.php",
+    "download": "",
+    "jiexiUrl": "https://jx.7kjx.com/?url=",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "id": 6,
+    "key": "123ku",
+    "name": "123 èµ„æº",
+    "api": "http://cj.123ku2.com:12315/inc/api.php",
+    "download": "",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "7Kèµ„æº",
+    "id": 7,
+    "name": "7Kèµ„æº",
+    "api": "https://zy.7kjx.com/cjapi.php",
+    "download": "",
+    "jiexiUrl": "default",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "1717äº‘èµ„æºç½‘",
+    "id": 8,
+    "name": "1717äº‘",
+    "api": "http://zy.itono.cn/inc/api.php",
+    "download": "",
+    "jiexiUrl": "https://www.1717yun.com/jiexi/?url=",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "å¤©ç©ºäº‘",
+    "id": 9,
+    "name": "å¤©ç©ºäº‘",
+    "api": "https://api.tiankongapi.com/api.php/provide/vod/at/xml/from/tkm3u8/",
+    "download": "",
+    "jiexiUrl": "https://jx.7kjx.com/?url=",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "èšåˆäº‘",
+    "id": 10,
+    "name": "èšåˆäº‘",
+    "api": "https://cj.cbi88.com/inc/api_juhem3u8s.php",
+    "download": "",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "å…«æˆ’äº‘",
+    "id": 11,
+    "name": "å…«æˆ’äº‘",
+    "api": "http://cj.bajiecaiji.com/inc/bjm3u8.php",
+    "download": "",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "subo988",
+    "id": 12,
+    "name": "é€Ÿæ’­èµ„æº",
+    "api": "https://www.subo988.com/inc/api.php",
+    "download": "",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "88zyw",
+    "id": 13,
+    "name": "88 å½±è§†",
+    "api": "http://www.88zyw.net/inc/api.php",
+    "download": "",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "zuidazy",
+    "id": 14,
+    "name": "æœ€å¤§èµ„æº",
+    "api": "http://www.zdziyuan.com/inc/ldg_sea.php",
+    "download": "http://www.zdziyuan.com/inc/apidown.php",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "okzy",
+    "id": 15,
+    "name": "OK èµ„æº",
+    "api": "http://cj.okzy.tv/inc/api.php",
+    "download": "http://cj.okzy.tv/inc/apidown.php",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "id": 16,
+    "key": "kuyunzy",
+    "name": "é…·äº‘èµ„æº",
+    "api": "http://caiji.kuyun98.com/inc/ldg_api.php",
+    "download": "http://caiji.kuyun98.com/inc/apidown.php",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "kubozy",
+    "id": 17,
+    "name": "é…·æ’­èµ„æº",
+    "api": "http://api.kbzyapi.com/inc/api.php",
+    "download": "",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "id": 18,
+    "key": "yongjiuzy",
+    "name": "æ°¸ä¹…èµ„æº",
+    "api": "http://cj.yongjiuzyw.com/inc/api.php",
+    "download": "",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "rrzy",
+    "id": 19,
+    "name": "äººäººèµ„æº",
+    "api": "https://www.rrzyw.cc/api.php/provide/vod/from/rrm3u8/at/xml/",
+    "download": "",
+    "jiexiUrl": "https://jx.7kjx.com/?url=",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "id": 20,
+    "key": "zuixinzy",
+    "name": "æœ€æ–°èµ„æº",
+    "api": "http://api.zuixinapi.com/inc/api.php",
+    "download": "",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "id": 21,
+    "key": "209zy",
+    "name": "209 èµ„æº",
+    "api": "http://cj.1156zy.com/inc/api.php",
+    "download": "",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "key": "mbo",
+    "id": 22,
+    "name": "ç§’æ’­èµ„æº",
+    "api": "http://caiji.mb77.vip/inc/seacmsapi.php",
+    "download": "",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "id": 23,
+    "key": "bbkdj",
+    "name": "æ­¥æ­¥é«˜é¡¶å°–èµ„æºç½‘",
+    "api": "http://api.bbkdj.com/api",
+    "download": "",
+    "jiexiUrl": "",
+    "group": "é»˜è®¤",
+    "isActive": true
+  },
+  {
+    "id": 24,
+    "key": "xhgcjym",
+    "name": "å°é»„ç“œèµ„æº",
+    "api": "http://cj.xhgcjym.com/inc/api.php",
+    "download": "http://cj.xhgcjym.com/inc/apidown.php",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "id": 25,
+    "key": "jiali",
+    "name": "ä½³ä¸½ TV",
+    "api": "https://jialiapi.com/api.php/provide/vod/at/xml/",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "id": 26,
+    "key": "8090zy",
+    "name": "8090èµ„æºç½‘",
+    "api": "http://zy.yilans.net/api.php/provide/vod/at/xml/",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "id": 27,
+    "key": "rerezy",
+    "name": "çƒ­çƒ­èµ„æº",
+    "api": "http://api.rereapi.com/inc/api.php",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "id": 28,
+    "key": "agzy",
+    "name": "çŽ¯äºšèµ„æº",
+    "api": "http://wmcj8.com/inc/sapi.php",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "id": 29,
+    "key": "lajiaozy",
+    "name": "è¾£æ¤’èµ„æº",
+    "api": "http://api.11bat.com/mac10.php",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "id": 30,
+    "key": "dadizy",
+    "name": "å¤§åœ°èµ„æº",
+    "api": "https://dadiapi.com/api.php",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "key": "1WeZ6q",
+    "id": 31,
+    "name": "83ç‰¹æ®Š.xxoo",
+    "api": "https://www.xxohub3.com/api.php/provide/vod/at/xml/",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "id": 32,
+    "key": "ixxzya",
+    "name": "IXX èµ„æº",
+    "api": "http://api.iixxzyapi.com/inc/api.php",
+    "download": "http://api.iixxzyapi.com/inc/apidown.php",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "id": 33,
+    "key": "khzy",
+    "name": "å¿«æ´»èµ„æºç«™",
+    "api": "https://www.khzyapi.com/api.php/provide/vod/at/xml/",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "key": "Tuyoxk",
+    "id": 34,
+    "name": "90ç‰¹æ®Š.ä¸‰åˆèµ„æº",
+    "api": "https://www.3heyingshi.com/api.php/provide/vod/at/xml/",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "key": "WC3h0o",
+    "id": 35,
+    "name": "93ç‰¹æ®Š.çŽ‰ç±³èµ„æº",
+    "api": "http://api.cj644.com/inc/zyapimac.php",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "key": "dydyOa",
+    "id": 36,
+    "name": "91ç‰¹æ®Š.å¤§ç‚®èµ„æº",
+    "api": "http://dgdy.me/api.php/provide/vod/at/xml/",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "id": 37,
+    "key": "NhTLgM",
+    "name": "76ç‰¹æ®Š.è‰²è‰²",
+    "api": "http://m.7777688.com/inc/api.php",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "id": 38,
+    "key": "LYCe0z",
+    "name": "78ç‰¹æ®Š.ä¹æ’­",
+    "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "id": 39,
+    "key": "Iy0Jlq",
+    "name": "79ç‰¹æ®Š.è‹å¤©",
+    "api": "http://cj.cangtiancj.com/api.php/Seacms/vod/",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "key": "77raVf",
+    "id": 40,
+    "name": "80ç‰¹æ®Š.äº‘éœ¸èµ„æº",
+    "api": "http://cj.1234567bt.com/inc/ldg_sea.php",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "key": "4btciy",
+    "id": 41,
+    "name": "84ç‰¹æ®Š.é²¨é±¼èµ„æº",
+    "api": "https://shayuapi.com/api.php/provide/vod/at/xml/",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "key": "qz492Y",
+    "id": 42,
+    "name": "86ç‰¹æ®Š.ä¸ƒä¸ƒèµ„æº",
+    "api": "https://www.77zyw.xyz/inc/api.php",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "key": "vJQZTA",
+    "id": 43,
+    "name": "92ç‰¹æ®Š.ç‹¬å®¶èµ„æº",
+    "api": "http://dujiazy3.com/api.php/provide/vod/at/xml/",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "key": "FyxUS8",
+    "id": 44,
+    "name": "95ç‰¹æ®Š.35èµ„æº",
+    "api": "http://cj.35zycj.com/inc/zyapimac.php",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "key": "RRvupO",
+    "id": 45,
+    "name": "96ç‰¹æ®Š.av88èµ„æº",
+    "api": "http://m.7777688.com/inc/api.php",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
+  },
+  {
+    "id": 46,
+    "key": "77ziyuan",
+    "name": "77èµ„æº",
+    "api": "https://www.77zyw.xyz/inc/seacmsapi.php",
+    "download": "",
+    "isActive": true,
+    "group": "ç¦åˆ©"
   }
+]
