@@ -2,10 +2,10 @@
     "author": "ajk",
     "ua": "",
     // 首页地址 用于获取 分类和首页推荐
-    "homeUrl": "https://m.nbys.tv/",
+    "homeUrl": "https://www.50vv.cc/",
     // 手动设置分类，如果手动设置了分类则不使用上面的分类xpath获取分类  例如 "cateManual": {"电影": "1", "电视剧": "2"},
     "cateManual": {
-        "电影": "1",
+        "电影": "20",
         "电视剧": "2",
         "综艺": "3",
         "动漫": "4"
@@ -29,7 +29,7 @@
     // 二次处理正则
     "homeVodMarkR": "",
     // 分类页地址 {cateId} 分类id {catePg} 当前页
-    "cateUrl": "https://m.nbys.tv/class.html?channelId={cateId}/page/{catePg}.html",
+    "cateUrl": "https://www.50vv.cc/vodtype/{cateId}-{catePg}.html",
     // 同上面的homeVod字段 分类列表中的视频信息
     "cateVodNode": "//ul[@class='stui-vodlist clearfix']/li/a",
     "cateVodName": "/@title",
@@ -74,11 +74,11 @@
     // 二次处理正则
     "dtUrlNameR": "",
     // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-    "playUrl": "https://m.nbys.tv/detail.html?showIdCode={playUrl}.html",
+    "playUrl": "https://www.50vv.cc/vodplay/{playUrl}-1-1.html",
     // 解析webview的user-agent
     "playUa": "",
     // 搜索地址
-    "searchUrl": "http://www.xqmi.top/search?wd={wd}",
+    "searchUrl": "https://www.50vv.cc/vodsearch/-------------.html?wd={wd}",
     // 同上面的homeVod字段 搜索结果中的视频信息, 这里有对苹果cms suggest搜索接口的特殊支持，参考示例中的极品影视
     "scVodNode": "//div[@class='movie-item']/a",
     "scVodName": "/@title",
