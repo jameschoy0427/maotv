@@ -2,7 +2,7 @@
     "author": "ajk",
     "ua": "",
     // 首页地址 用于获取 分类和首页推荐
-    "homeUrl": "https://www.75kp.com",
+    "homeUrl": "https://www.xqmi.top",
     // 手动设置分类，如果手动设置了分类则不使用上面的分类xpath获取分类  例如 "cateManual": {"电影": "1", "电视剧": "2"},
     "cateManual": {
         "电影": "1",
@@ -29,7 +29,7 @@
     // 二次处理正则
     "homeVodMarkR": "",
     // 分类页地址 {cateId} 分类id {catePg} 当前页
-    "cateUrl": "https://www.75kp.com/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+    "cateUrl": "https://www.xqmi.top/index.php/vod/type/id/{cateId}/page/{catePg}.html",
     // 同上面的homeVod字段 分类列表中的视频信息
     "cateVodNode": "//ul[@class='stui-vodlist clearfix']/li/a",
     "cateVodName": "/@title",
@@ -38,7 +38,7 @@
     "cateVodImg": "/@data-original",
     "cateVodMark": "/span[@class='pic-text text-right']/text()",
     // 详情页地址 用于获取详情页信息 及 播放列表和地址
-    "dtUrl": "https://www.75kp.com/index.php/vod/play/id/{vid}.html",
+    "dtUrl": "https://www.xqmi.top/index.php/vod/play/id/{vid}.html",
     // 详情节点
     "dtNode": "//body",
     // 视频名
@@ -74,11 +74,11 @@
     // 二次处理正则
     "dtUrlNameR": "",
     // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-    "playUrl": "https://www.75kp.com/index.php/vod/play/id/{playUrl}.html",
+    "playUrl": "https://www.xqmi.top/index.php/vod/play/id/{playUrl}.html",
     // 解析webview的user-agent
     "playUa": "",
     // 搜索地址
-    "searchUrl": "https://www.75kp.com/index.php/vod/search.html?wd={wd}",
+    "searchUrl": "http://www.xqmi.top/search?wd={wd}",
     // 同上面的homeVod字段 搜索结果中的视频信息, 这里有对苹果cms suggest搜索接口的特殊支持，参考示例中的极品影视
     "scVodNode": "//div[@class='movie-item']/a",
     "scVodName": "/@title",
