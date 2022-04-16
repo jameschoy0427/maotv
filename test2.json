@@ -29,7 +29,7 @@
     // 二次处理正则
     "homeVodMarkR": "",
     // 分类页地址 {cateId} 分类id {catePg} 当前页
-    "cateUrl": "https://www.75kp.com/index.php/vod/show/id/{cateId}/page/{catePg}.html",
+    "cateUrl": "https://www.75kp.com/index.php/vod/type/id/{cateId}/page/{catePg}.html",
     // 同上面的homeVod字段 分类列表中的视频信息
     "cateVodNode": "//ul[@class='stui-vodlist clearfix']/li/a",
     "cateVodName": "/@title",
