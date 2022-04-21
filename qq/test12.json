@@ -46,7 +46,7 @@
     "dtName": "//div[contains(@class,'title')]/h4[/@href]/text()",
     "dtNameR": "",
     // 视频图片
-    "dtImg": "//a[contains(@class,'stui-vodlist__thumb')][1]/@original"
+    "dtImg": "//a[contains(@class,'stui-vodlist__thumb')][1]/@original",
     "dtImgR": "",
     // 视频分类
    //"dtCate": "//span[contains(@class,'text-muted hidden-xs') and contains(text(), '类型：')]/following-sibling::*/text()",
@@ -57,7 +57,7 @@
    // "dtDesc": "//div[contains(@class,'stui-content__desc col-pd clearfix')]/text()",
    // "dtDescR": "",
     // 播放源节点
-    "dtFromNode": "//div[contains(@class,'stui-pannel-box')]/div[@class='stui-pannel_hd']",
+    "dtFromNode": "//div[contains(@class,'stui-pannel-box')]/div[@class='stui-pannel_hd']"
     // 播放源名称
    // "dtFromName": "concat('播放源',count(parent::*/preceding::*//div[contains(@class,'tabs')]/ul[@class='t-ul']) + 1)",
     // 二次处理正则
