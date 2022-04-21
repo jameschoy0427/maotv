@@ -11,22 +11,22 @@
         "动漫": "4"
     },
     // 首页推荐视频的节点
-    "homeVodNode": "//ul[@class='stui-vodlist clearfix']/li/a",
+    //"homeVodNode": "//ul[@class='stui-vodlist clearfix']/li/a",
     // 首页推荐视频的名称
-    "homeVodName": "/@title",
+    //"homeVodName": "/@title",
     // 二次处理正则
-    "homeVodNameR": "",
+   // "homeVodNameR": "",
     // 首页推荐视频的id
-    "homeVodId": "/@href",
+    //"homeVodId": "/@href",
     // 二次处理正则
-    "homeVodIdR": "/id/(\\w+).html",
+    //"homeVodIdR": "/id/(\\w+).html",
     // 首页推荐视频的图片
-    "homeVodImg": "/@data-original",
+   // "homeVodImg": "/@data-original",
     // 二次处理正则
-    "homeVodImgR": "",
+   // "homeVodImgR": "",
     // 首页推荐视频的简介
-    "homeVodMark": "/span[@class='pic-text text-right']/text()",
+   // "homeVodMark": "/span[@class='pic-text text-right']/text()",
     // 二次处理正则
-    "homeVodMarkR": ""
+  //  "homeVodMarkR": ""
  
 }
