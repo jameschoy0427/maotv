@@ -12,7 +12,7 @@
         "欧美伦理": "4"
     },
     // 首页推荐视频的节点
-    "homeVodNode": "//ul[@class='stui-vodlist clearfix']/li/a",
+    "homeVodNode": "//ul[@class='stui-vodlist clearfix']/li/div/a",
     // 首页推荐视频的名称
     "homeVodName": "/@title",
     // 二次处理正则
@@ -22,7 +22,7 @@
     // 二次处理正则
     "homeVodIdR": "/id/(\\w+).html",
     // 首页推荐视频的图片
-    "homeVodImg": "/@data-original",
+    "homeVodImg": "/@original",
     // 二次处理正则
     "homeVodImgR": "",
     // 首页推荐视频的简介
