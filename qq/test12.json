@@ -36,7 +36,7 @@
     "cateVodName": "/@title",
     "cateVodId": "/@href",
     "cateVodIdR": "/id/(\\w+).html",
-    "cateVodImg": "/@original",
+    "cateVodImg": "https://www.allnewys.com/@original",
     "cateVodMark": "/span[@class='pic-text text-right']/text()",
     // 详情页地址 用于获取详情页信息 及 播放列表和地址
     "dtUrl": "https://www.allnewys.com/index.php/vod/play/id/{vid}.html",
