@@ -45,15 +45,15 @@
     "dtName": "//div[contains(@class,'video-title')]/h2[@class='title']/text()",
     "dtNameR": "",
     // 视频图片
-    "dtImg": "//a[contains(@class,'stui-vodlist__thumb')][1]/@data-original",
-    "dtImgR": "",
+    "dtImg": "//a[contains(@class,'stui-vodlist__thumb')][1]/@data-original"
+ //   "dtImgR": "",
     // 视频分类
-    "dtCate": "//span[contains(@class,'text-muted hidden-xs') and contains(text(), '类型：')]/following-sibling::*/text()",
-    "dtCateR": "",
+   // "dtCate": "//span[contains(@class,'text-muted hidden-xs') and contains(text(), '类型：')]/following-sibling::*/text()",
+   // "dtCateR": "",
     // 视频年份
-    "dtYear": "//span[contains(@class,'text-muted hidden-xs') and contains(text(), '年份：')]/following-sibling::*/text()",
+   // "dtYear": "//span[contains(@class,'text-muted hidden-xs') and contains(text(), '年份：')]/following-sibling::*/text()",
     // 视频简介
-    "dtDesc": "//div[contains(@class,'stui-content__desc col-pd clearfix')]/text()"
+   // "dtDesc": "//div[contains(@class,'stui-content__desc col-pd clearfix')]/text()",
    // "dtDescR": "",
     // 播放源节点
   //  "dtFromNode": "//div[contains(@class,'tabs')]/ul[@class='t-ul']",
