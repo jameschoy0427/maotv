@@ -1,10 +1,10 @@
 {
   "ua": "",
   "videoName":"黄色仓库",
-  "homeUrl": "@get:{homeUrl}",
+  "homeUrl": "@constant:https://www.allnewys.com/",
   "cateNode": "ul[class='stui-header__menu clearfix']>li:gt(0)",
   "cateName": "/a/text()",
-  "cateId": "/a/@href##/vodtype/(\\w+).html##$1",
+  "cateId": "/index.php/vod/detail/id/(\\w+).html",
   "cateIdR": "",
   "cateManual": {},
   "homeVodNode": "@css:.stui-vodlist>li",
@@ -50,12 +50,6 @@
   "scVodId": "//h3/a/@href",
   "scVodIdR": "",
   "scVodImg": "//*[contains(@class,'stui-vodlist__thumb')]/@data-original",
-  "scVodMark": "//div[contains(@class,'detail')]/allText()",
-  "preParamMaps":[
-    {
-      "paramUrl":"@constant:https://www.allnewys.com/;get;utf-8;{redirect@false}",
-      "paramKey":"homeUrl",
-      "paramValue":"@get:{location}##\\S+(http\\S+)(?:'|\").*##$1"
-    }
-  ]
+  "scVodMark": "//div[contains(@class,'detail')]/allText()"
+  
 }
