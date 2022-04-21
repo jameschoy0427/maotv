@@ -66,17 +66,17 @@
     // 播放地址节点
     "dtUrlSubNode": "/li/a",
     // 播放地址
-    "dtUrlId": "/@href",
+  //  "dtUrlId": "/@href",
     // 二次处理正则
-    "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
+   // "dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
     // 剧集名称
-    "dtUrlName": "/text()",
+  //  "dtUrlName": "/text()",
     // 二次处理正则
-    "dtUrlNameR": "",
+   // "dtUrlNameR": "",
     // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-    "playUrl": "https://www.xqmi.top/index.php/vod/play/id/{playUrl}.html",
+  //  "playUrl": "https://www.xqmi.top/index.php/vod/play/id/{playUrl}.html",
     // 解析webview的user-agent
-    "playUa": "",
+    //"playUa": "",
     // 搜索地址
    // "searchUrl": "http://www.xqmi.top/search?wd={wd}",
     // 同上面的homeVod字段 搜索结果中的视频信息, 这里有对苹果cms suggest搜索接口的特殊支持，参考示例中的极品影视
