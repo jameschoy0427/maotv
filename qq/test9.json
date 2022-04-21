@@ -1,0 +1,32 @@
+{
+    "author": "ajk",
+    "ua": "",
+    // 首页地址 用于获取 分类和首页推荐
+    "homeUrl": "https://www.xqmi.top",
+    // 手动设置分类，如果手动设置了分类则不使用上面的分类xpath获取分类  例如 "cateManual": {"电影": "1", "电视剧": "2"},
+    "cateManual": {
+        "电影": "1",
+        "电视剧": "2",
+        "综艺": "3",
+        "动漫": "4"
+    },
+    // 首页推荐视频的节点
+    "homeVodNode": "//ul[@class='stui-vodlist clearfix']/li/a",
+    // 首页推荐视频的名称
+    "homeVodName": "/@title",
+    // 二次处理正则
+    "homeVodNameR": "",
+    // 首页推荐视频的id
+    "homeVodId": "/@href",
+    // 二次处理正则
+    "homeVodIdR": "/id/(\\w+).html",
+    // 首页推荐视频的图片
+    "homeVodImg": "/@data-original",
+    // 二次处理正则
+    "homeVodImgR": "",
+    // 首页推荐视频的简介
+    "homeVodMark": "/span[@class='pic-text text-right']/text()",
+    // 二次处理正则
+    "homeVodMarkR": ""
+ 
+}
