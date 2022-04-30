@@ -1,0 +1,51 @@
+{
+	"ua": "",
+	"homeUrl": "https://www.uuyuuy.com",
+	"cateManual": {
+         "电影": "dianying",
+        "电视剧": "dianshiju",
+        "综艺": "zongyi",
+        "动漫": "dongman"
+},
+
+
+
+	"homeVodNode": "//div[contains(@class,'stui-pannel_bd')]/ul/li",
+	"homeVodName": "h4/a/text()",
+	"homeVodId": "/a/@href",
+	"homeVodIdR": "/vod/(\\w+).html",
+	"homeVodImg": "/a/@data-original",
+	"homeVodImgR": "",
+
+
+
+
+	"cateUrl": "https://www.uuyuuy.com/vodshow/id/{cateId}/page/{catePg}.html",
+	"cateVodNode": "//div[contains(@class,'stui-pannel_bd')]/ul/li",
+	"cateVodName": "h4/a/text()",
+	"cateVodId": "/a/@href",
+	"cateVodIdR": "/vod/(\\w+).html",
+	"cateVodImg": "/a/@data-original",
+	"cateVodImgR": "",
+
+
+    "dtUrl": "https://www.uuyuuy.com/vod/{vid}.html",
+    "dtNode": "//body",
+    "dtName": "//a[contains(@class,'pic stui-vodlist__thumb')]/@title",
+    "dtNameR": "",
+    "dtImg": "//a[contains(@class,'pic stui-vodlist__thumb')]/@data-original",
+    "dtImgR": "\\S+(http\\S+)",
+    
+    "dtFromNode": "//div[@class='dropdown pull-right']/ul/li/a",
+    "dtFromName": "/text()",
+    "dtFromNameR": "",
+    "dtUrlNode": "//div[@class='tab-pane fade in clearfix active']/ul[contains(@class, 'stui-content__playlist clearfix')]",
+    "dtUrlSubNode": "/li/a",
+    "dtUrlId": "@href",
+    "dtUrlIdR": "/play/(\\S+).html",
+    "dtUrlName": "/text()",
+    "dtUrlNameR": "",
+    "playUrl": "https://www.uuyuuy.com/play/{playUrl}.html",
+    "playUa": ""
+
+}

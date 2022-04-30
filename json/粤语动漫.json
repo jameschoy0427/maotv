@@ -1,0 +1,50 @@
+{
+	"ua": "",
+	"homeUrl": "http://www.yyu3.com/",
+	"cateNode": "//dd[contains(@class,'deanddt0')]/h3/a[contains(@href,'.html')]",
+	"cateName": "/text()",
+	"cateId": "/@href",
+	"cateIdR": "",
+	"cateManual": {},
+ 
+ 
+ 
+	"homeVodNode": "//ul[contains(@class, 'img-list dis')]/li/a",
+	"homeVodName": "/@title",
+	"homeVodId": "/@href",
+	"homeVodIdR": "",
+	"homeVodImg": "/img/@src",
+	"homeVodImgR": "",
+ 
+ 
+ 
+ 
+	"cateUrl": "http://www.yyu3.com/index.php/vod/type/id/4/page/{catePg}.html",
+	"cateVodNode": "//ul[contains(@class, 'img-list')]/li/a",
+	"cateVodName": "/@title",
+	"cateVodId": "/@href",
+	"cateVodIdR": "",
+	"cateVodImg": "/img/@src",
+	"cateVodImgR": "",
+ 
+ 
+"dtUrl": "http://www.yyu3.com/index.php/vod/detail/id/{vid}.html",
+"dtNode": "//body",
+"dtName": "//div[contains(@class,'detail-info')]/div/h1/text()",
+"dtImg": "//div[contains(@class,'detail-pic')]/img/@src",
+"dtFromNode": "//div[contains(@class,'down-title')]/h2",
+"dtFromName": "/text()",
+"dtFromNameR": "\\S+\\.(\\S+) \\(",
+"dtUrlNode": "//div[contains(@class,'video_list')]",
+"dtUrlSubNode": "/a",
+ "dtUrlId": "/@href",
+"dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
+ "dtUrlName": "/text()",
+ 
+"playUrl": "http://www.yyu3.com/index.php/vod/play/id/{playUrl}.html",
+ "playUa": ""
+ 
+ 
+ 
+ 
+}
