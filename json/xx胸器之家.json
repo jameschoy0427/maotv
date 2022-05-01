@@ -1,0 +1,54 @@
+{
+  	"ua": "",
+	"homeUrl": "https://xqzj7.xyz",
+	"cateNode": "//ul[contains(@class,'sub-menu')]/li/a[contains(@href,'video') and not(contains(@href,'web'))]",
+	"cateName": "/text()",
+	"cateId": "/@href",
+	"cateIdR": "",
+	"cateManual": {},
+
+
+
+	"homeVodNode": "//article[contains(@class,'excerpt')]/div",
+	"homeVodName": "/div/img/@alt",
+	"homeVodId": "/a/@href",
+	"homeVodIdR": "",
+	"homeVodImg": "/div/img/@data-src",
+	"homeVodImgR": "",
+
+
+
+	"cateUrl": "https://xqzj7.xyz/{cateId}/index_{catePg}.html",
+	"cateVodNode": "//article[contains(@class,'excerpt')]/div",
+	"cateVodName": "/div/img/@alt",
+	"cateVodId": "/a/@href",
+	"cateVodIdR": "",
+	"cateVodImg": "/div/img/@data-src",
+	"cateVodImgR": "",
+
+
+"dtUrl": "https://xqzj7.xyz/{vid}",
+"dtNode": "//body",
+"dtName": "//h1[contains(@class,'article-title')]/text()",
+"dtImg": "//img[contains(@class,'thumb')]/@data-src",
+"dtFromNode": "//a[contains(@class,'lBtn')]",
+"dtFromName": "/text()",
+"dtUrlNode": "//div[contains(@class,'bfdz')]",
+"dtUrlSubNode": "/a",
+ "dtUrlId": "/@href",
+"dtUrlIdR": "",
+ "dtUrlName": "/text()",
+
+
+"playUrl": "https://xqzj7.xyz/{playUrl}",
+"playUa": ""
+
+
+
+
+
+
+
+
+}
+

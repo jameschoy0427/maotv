@@ -1,0 +1,49 @@
+{
+    "ua": "",
+    "homeUrl": "https://www.allnewys.com",
+    "cateNode": "//ul[contains(@class,'stui-header__menu type-slide')]/li/a[contains(@href, '.html') and 
+    not(contains(@href, '6'))]",
+    "cateName": "/text()",
+    "cateNameR": "热门(.+)", 
+    "cateId": "/@href", 
+    "cateIdR": "/type/id/(\\d+).html", 
+    "cateManual": {},  
+
+
+"homeVodNode": "//ul[@class='stui-vodlist clearfix']/li/div/a",
+"homeVodName": "/@title",
+"homeVodId": "/@href",
+"homeVodIdR": "/id/(\\w+).html",
+"homeVodImg": "/img/@src",
+"homeVodMark": "/span[@class='pic-text text-right']/text()",
+
+
+ "cateUrl": "https://www.allnewys.com/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+ "cateVodNode": "//ul[@class='stui-vodlist clearfix']/li/div/a",
+    "cateVodName": "/@title",
+    "cateVodId": "/@href",
+    "cateVodIdR": "/id/(\\w+).html",
+    "cateVodImg": "/img/@src",
+    "cateVodMark": "/span[@class='pic-text text-right']/text()",
+
+
+"dtUrl": "https://www.allnewys.com/index.php/vod/play/id/{vid}.html",
+"dtNode": "//body",
+"dtName": "//h4[contains(@class,'title')]/a/text()",
+"dtImg": "//a[contains(@class,'stui-vodlist__thumb img-shadow')][1]/img/@src",
+"dtFromNode": "//div[contains(@class,'stui-pannel-box')]//div/h3[@class='title']",
+"dtFromName": "/text()",
+"dtFromNameR": "\\S+\\.(\\S+) \\(",
+//"dtFromName": "concat('播放源',count(parent::*/preceding::*//div[contains(@class,'stui-pannel-box')]//div/h3[@class='title']) + 1)",
+ "dtFromNameR": "(\\S+).0",
+"dtUrlNode": "//div[contains(@class,'stui-pannel-box')]//div//ul",
+"dtUrlSubNode": "/li/a",
+ "dtUrlId": "/@href",
+"dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
+ "dtUrlName": "/text()",
+
+"playUrl": "https://www.allnewys.com/index.php/vod/play/id/{playUrl}.html",
+"playUa": ""
+
+
+}

@@ -1,0 +1,55 @@
+{
+  "ua": "",
+  "homeUrl": "https://madouzx.xyz",
+  "cateManual": {
+  
+"传媒":"1",
+"中文":"2",
+"日本":"3",
+"欧美":"4",
+"伦理":"5"
+
+    
+  },
+ "homeVodNode": "//li[@class='format-video']/div/a",
+  "homeVodName": "/img/@alt",
+  "homeVodId": "/@href",
+"homeVodIdR": "",
+  "homeVodImg": "/img/@src",
+
+
+
+	"cateUrl": "https://madouzx.xyz/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+	"cateVodNode": "//li[@class='format-video']/div/a",
+	"cateVodName": "/img/@alt",
+	"cateVodId": "/@href",
+	"cateVodIdR": "",
+	"cateVodImg": "/img/@src",
+
+
+
+
+
+"dtUrl": "https://madouzx.xyz/{vid}",
+"dtNode": "//body",
+"dtName": "//header[@class='entry-header']/h1/text()",
+"dtImg": "//div[@class='blog-pic']/a/img/@src",
+"dtFromNode": "//div[@class='down-title']/h2",
+"dtFromName": "/text()",
+"dtUrlNode": "//div[@class='video_list fn-clear']",
+"dtUrlSubNode": "/a",
+ "dtUrlId": "/@href",
+"dtUrlIdR": "",
+ "dtUrlName": "/text()",
+ 
+ 
+ 
+ 
+"playUrl": "https://madouzx.xyz/{playUrl}",
+"playUa": ""
+ 
+ 
+ 
+ 
+}
+

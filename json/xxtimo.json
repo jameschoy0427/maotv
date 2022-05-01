@@ -1,0 +1,46 @@
+{
+  	"ua": "",
+	"homeUrl": "https://www.timo0.com",
+	"cateNode": "//li[contains(@class,'fed-hide-xs')]/a[contains(@href,'.html')]",
+	"cateName": "/text()",
+	"cateId": "/@href",
+	"cateIdR": "/vodtype/(\\w+).html",
+	"cateManual": {},
+
+
+
+	"homeVodNode": "//ul[contains(@class,'fed-list-info')]/li",
+	"homeVodName": "/a[contains(@class,'fed-list-title')]/text()",
+	"homeVodId": "/a[contains(@class,'fed-list-title')]/@href",
+	"homeVodIdR": "/voddetail/(\\w+).html",
+	"homeVodImg": "/a[contains(@class,'fed-list-pics')]/@data-original",
+	"homeVodImgR": "",
+
+
+	"cateUrl": "https://www.timo0.com/vodtype/{cateId}-{catePg}.html",
+	"cateVodNode": "//ul[contains(@class,'fed-list-info')]/li",
+	"cateVodName": "/a[contains(@class,'fed-list-title')]/text()",
+	"cateVodId": "/a[contains(@class,'fed-list-title')]/@href",
+	"cateVodIdR": "/voddetail/(\\w+).html",
+	"cateVodImg": "/a[contains(@class,'fed-list-pics')]/@data-original",
+	"cateVodImgR": "",
+
+
+
+
+"dtUrl": "https://www.timo0.com/voddetail/{vid}.html",
+"dtNode": "//body",
+"dtName": "//h1[contains(@class,'fed-part-eone')]/a/text()",
+"dtImg": "//a[contains(@class,'fed-list-pics')][1]/@data-original",
+"dtFromNode": "//div[contains(@class,'fed-tabs-item')]/div/ul/li/a",
+"dtFromName": "/text()",
+"dtUrlNode": "//div[contains(@class,'fed-tabs-item')]/div/div/ul[@class='fed-part-rows']",
+"dtUrlSubNode": "/li/a",
+ "dtUrlId": "/@href",
+"dtUrlIdR": "/vodplay/(\\S+).html",
+ "dtUrlName": "/text()",
+ 
+"playUrl": "https://www.timo0.com/vodplay/{playUrl}.html",
+"playUa": ""
+ 
+}
