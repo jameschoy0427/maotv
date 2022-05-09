@@ -14,9 +14,9 @@
 
 	"homeVodNode": "//div[@class='appel-main']/ul/li",
 	"homeVodName": "/div/h5/a/@title",
-	"homeVodId": "/a/@href",
+	"homeVodId": "/a[@class='thumbnail']/@href",
 	"homeVodIdR": "",
-	"homeVodImg": "/a/img/@src",
+	"homeVodImg": "/a[@class='thumbnail']/img/@src",
 	"homeVodImgR": "",
 
 
