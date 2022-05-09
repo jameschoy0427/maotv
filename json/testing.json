@@ -1,7 +1,7 @@
 
 {
   	"ua": "",
-	"homeUrl": "https://12aapp.com/",
+	"homeUrl": "http://bbb506.com/",
 	"cateNode": "",
 	"cateName": "",
 	"cateId": "",
@@ -12,11 +12,11 @@
 
 
 
-	"homeVodNode": "//div[@class='item']/div/a",
-	"homeVodName": "/@title",
-	"homeVodId": "/@href",
+	"homeVodNode": "//div[@class='appel-main']/ul/li",
+	"homeVodName": "/div/h5/a/@title",
+	"homeVodId": "/a/@href",
 	"homeVodIdR": "",
-	"homeVodImg": "/@data-original",
+	"homeVodImg": "/a/img/@src",
 	"homeVodImgR": "",
 
 
