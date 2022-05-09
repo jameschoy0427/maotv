@@ -1,1 +1,47 @@
 
+{
+  	"ua": "",
+	"homeUrl": "",
+	"cateNode": "",
+	"cateName": "",
+	"cateId": "",
+	"cateIdR": "",
+	"cateManual": {},
+
+
+
+	"homeVodNode": "",
+	"homeVodName": "",
+	"homeVodId": "",
+	"homeVodIdR": "",
+	"homeVodImg": "",
+	"homeVodImgR": "",
+
+
+	"cateUrl": "",
+	"cateVodNode": "",
+	"cateVodName": "",
+	"cateVodId": "",
+	"cateVodIdR": "",
+	"cateVodImg": "",
+	"cateVodImgR": "",
+
+
+
+
+"dtUrl": "",
+"dtNode": "",
+"dtName": "",
+"dtImg": "",
+"dtFromNode": "",
+"dtFromName": "",
+"dtUrlNode": "",
+"dtUrlSubNode": "",
+ "dtUrlId": "",
+"dtUrlIdR": "",
+ "dtUrlName": "",
+ 
+"playUrl": "",
+"playUa": ""
+ 
+}
