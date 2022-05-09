@@ -1,20 +1,22 @@
 
 {
   	"ua": "",
-	"homeUrl": "",
+	"homeUrl": "https://12aapp.com/",
 	"cateNode": "",
 	"cateName": "",
 	"cateId": "",
 	"cateIdR": "",
-	"cateManual": {},
+	"cateManual": {
+	"全部":""
+	},
 
 
 
-	"homeVodNode": "",
-	"homeVodName": "",
-	"homeVodId": "",
+	"homeVodNode": "//div[@class='item']/div/a",
+	"homeVodName": "/@title",
+	"homeVodId": "/@href",
 	"homeVodIdR": "",
-	"homeVodImg": "",
+	"homeVodImg": "/@data-original",
 	"homeVodImgR": "",
 
 
