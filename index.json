@@ -1,7 +1,7 @@
 {
 "wallpaper":"https://picsum.photos/1280/720/?blur=10",
 //"spider":"https://github.com/YuanHsing/OneClickRun/raw/master/xpath/custom_spider.jar?raw=true",
-"spider":"https://github.com/CatVodTVOfficial/CatVodTVSpider/blob/master/jar/custom_spider.jar?raw=true",
+"spider":"https://github.com/CatVodTVOfficial/CatVodTVSpider/blob/master/jar/custom_spider.jar",
 //"spider": "https://gitee.com/shentong_012/mao/raw/master/custom_spider_debug19.jar?raw=true;md5;45cdcbaccbfd8b5b1e104a7821df812a",
 "sites":[
 
