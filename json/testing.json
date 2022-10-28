@@ -1,23 +1,30 @@
 
 {
   	"ua": "",
-	"homeUrl": "https://www.oulevod.tv/",
+	"homeUrl": "https://www.timo0.com",
 	"cateNode": "",
 	"cateName": "",
 	"cateId": "",
 	"cateIdR": "",
-	"cateManual": {
-	"全部":""
-	},
+	"cateManual": {},
 
 
 
-	"homeVodNode": "//div[@class='row']/div/ul/li",
-	"homeVodName": "//a[@class='hl-item-thumb hl-lazy']/@title",
-	"homeVodId": "//a[@class='hl-item-thumb hl-lazy']/@href",
-	"homeVodIdR": "",
-	"homeVodImg": "//a[@class='hl-item-thumb hl-lazy']/@data-original",
+	"homeVodNode": "//ul[contains(@class,'fed-list-info')]/li",
+	"homeVodName": "/a[contains(@class,'fed-list-title')]/text()",
+	"homeVodId": "/a[contains(@class,'fed-list-title')]/@href",
+	"homeVodIdR": "/voddetail/(\\w+).html",
+	"homeVodImg": "/a[contains(@class,'fed-list-pics')]/@data-original",
 	"homeVodImgR": "",
+
+
+	"cateUrl": "https://www.timo0.com/vodtype/{cateId}-{catePg}.html",
+	"cateVodNode": "//ul[contains(@class,'fed-list-info')]/li",
+	"cateVodName": "/a[contains(@class,'fed-list-title')]/text()",
+	"cateVodId": "/a[contains(@class,'fed-list-title')]/@href",
+	"cateVodIdR": "/voddetail/(\\w+).html",
+	"cateVodImg": "/a[contains(@class,'fed-list-pics')]/@data-original",
+	"cateVodImgR": "",
 
 
 	"cateUrl": "",
