@@ -13,10 +13,10 @@
 
 
 	"homeVodNode": "//div[@class='row']/div/ul/li",
-	"homeVodName": "/a/@title",
-	"homeVodId": "/a/@href",
+	"homeVodName": "//a[@class='hl-item-thumb hl-lazy']/@title",
+	"homeVodId": "//a[@class='hl-item-thumb hl-lazy']/@href",
 	"homeVodIdR": "",
-	"homeVodImg": "/a/@data-original",
+	"homeVodImg": "//a[@class='hl-item-thumb hl-lazy']/@data-original",
 	"homeVodImgR": "",
 
 
