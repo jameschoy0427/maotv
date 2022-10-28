@@ -1,7 +1,7 @@
 
 {
   	"ua": "",
-	"homeUrl": "http://bbb506.com/",
+	"homeUrl": "https://www.oulevod.tv/",
 	"cateNode": "",
 	"cateName": "",
 	"cateId": "",
@@ -12,11 +12,11 @@
 
 
 
-	"homeVodNode": "//div[@class='appel-main']/ul/li",
-	"homeVodName": "/div/h5/a/@title",
-	"homeVodId": "/a[@class='thumbnail']/@href",
+	"homeVodNode": "//div[@class='row']/div/ul/li",
+	"homeVodName": "/a/@title",
+	"homeVodId": "/a/@href",
 	"homeVodIdR": "",
-	"homeVodImg": "/a[@class='thumbnail']/img/@src",
+	"homeVodImg": "/a/@data-original",
 	"homeVodImgR": "",
 
 
