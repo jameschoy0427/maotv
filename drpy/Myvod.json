@@ -1027,7 +1027,8 @@
             "name": "子子影视[js]",
             "type": 3,
             "api": "./js/drpy2.min.js",
-            "ext": "./js/子子影视.js"
+            "ext": "./js/子子影视.js",
+            "jar":"./0607.jar"
         },
 
  {
